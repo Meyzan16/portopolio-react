@@ -26,13 +26,13 @@ const Hero = () => {
 
                         <div data-aos='fade-up' data-aos-duration='1800' data-aos-delay='200' 
                             className='flex items-center justify-center md:justify-normal gap-6 py-4'>
-                            <a href="#contact">
+                            <a href="mailto:meyzan1605@gmail.com">
                                 <button className="px-4 py-2 rounded-lg bg-primary text-white font-[500] flex items-center gap-2
                                 hover:bg-smallTextColor ease-in duration-300">
                                     <i class="ri-mail-line"></i>Hire me
                                 </button>
                             </a>
-                            <a href="#portopolio" className='text-stone-700 font-[600] text-[16px] border-b border-solid border-stone-700'>
+                            <a href="#portopolio" className='hover:text-primary hover:border-primary text-stone-700 font-[600] text-[16px] border-b border-solid border-stone-700'>
                                 See portopolio
                             </a>
 
@@ -50,48 +50,40 @@ const Hero = () => {
                         <div className='flex items-center justify-center md:justify-normal gap-4 py-4'>
                             {/* <span className='text-stone-700 text-[15px] '>Follow me :</span> */}
 
-                                <span>
-                                    <a href="#github" className="sm:w-12 sm:h-12 w-9 h-9
+                                <span data-aos='zoom-in' data-aos-duration='800' data-aos-delay='100'>
+                                    <a href="https://github.com/meyzan16" className="sm:w-12 sm:h-12 w-10 h-10
                                             rounded-full justify-center border
                                             border-slate-300 hover:border-primary
                                             transition-all duration-300 hover:ease-in hover:scale-125
-                                            hover:text-white  flex items-center text-white bg-primary text-[18px] sm:text-[29px]">
+                                            hover:text-white  flex items-center text-white bg-primary text-[18px] sm:text-[29px]" target="_blank">
                                                 <i class="ri-github-fill"></i>
                                     </a>
                                 </span>
-                                <span>
-                                    <a href="#lnkedin" className="sm:w-12 sm:h-12 w-9 h-9
+                                <span data-aos='zoom-in' data-aos-duration='800' data-aos-delay='200'>
+                                    <a href="https://www.linkedin.com/in/meyzan-al-yutra-s-kom-4017b2221/" className="sm:w-12 sm:h-12 w-10 h-10
                                             rounded-full justify-center border
                                             border-slate-300 hover:border-primary
                                             transition-all duration-300 hover:ease-in hover:scale-125
-                                            hover:text-white  flex items-center text-white bg-primary text-[18px] sm:text-[29px]" >
+                                            hover:text-white  flex items-center text-white bg-primary text-[18px] sm:text-[29px]" target="_blank">
                                                 <i class="ri-linkedin-box-fill"></i>
                                     </a>
                                 </span>
-                                <span>
-                                    <a href="#instagram" className="sm:w-12 sm:h-12 w-9 h-9
+                                <span data-aos='zoom-in' data-aos-duration='800' data-aos-delay='300'>
+                                    <a href={'https://www.linkedin.com/in/meyzan-al-yutra-s-kom-4017b2221/'}  className="sm:w-12 sm:h-12 w-10 h-10 
                                             rounded-full justify-center border
                                             border-slate-300 hover:border-primary
                                             transition-all duration-300 hover:ease-in hover:scale-125
-                                            hover:text-white  flex items-center text-white bg-primary text-[18px] sm:text-[29px]">
+                                            hover:text-white  flex items-center text-white bg-primary text-[18px] sm:text-[29px]"  target="_blank"
+                                            >
                                                <i class="ri-instagram-line"></i>
                                     </a>
                                 </span>
-                                <span>
-                                    <a href="#mail" className="sm:w-12 sm:h-12 w-9 h-9
+                                <span data-aos='zoom-in' data-aos-duration='800' data-aos-delay='400'>
+                                    <a href={'https://api.whatsapp.com/send/?phone=6285783248518&amp;text=Hi, Meyzan Al Yutra&amp;type=phone_number&amp;app_absent=0'} className="sm:w-12 sm:h-12 w-10 h-10
                                             rounded-full justify-center border
                                             border-slate-300 hover:border-primary
                                             transition-all duration-300 hover:ease-in hover:scale-125
-                                            hover:text-white  flex items-center text-white bg-primary text-[18px] sm:text-[29px]">
-                                               <i class="ri-mail-line"></i>
-                                    </a>
-                                </span>
-                                <span>
-                                    <a href="#whatsapp" className="sm:w-12 sm:h-12 w-9 h-9
-                                            rounded-full justify-center border
-                                            border-slate-300 hover:border-primary
-                                            transition-all duration-300 hover:ease-in hover:scale-125
-                                            hover:text-white  flex items-center text-white bg-primary text-[18px] sm:text-[29px]">
+                                            hover:text-white  flex items-center text-white bg-primary text-[18px] sm:text-[29px]"   target="_blank">
                                                <i class="ri-whatsapp-line"></i>
                                     </a>
                                 </span>
@@ -101,7 +93,7 @@ const Hero = () => {
 
                     {/* img */}
                     <div className='md:basis-1/3 py-4 md:py-12'>
-                        <figure className='flex items-center justify-center bg-primary  w-60  md:w-[20rem]  mx-auto  rounded-full  overflow-hidden'>
+                        <figure data-aos='zoom-in' data-aos-duration='1500' data-aos-delay='200' className='flex items-center justify-center bg-primary  w-60  md:w-[20rem]  mx-auto  rounded-full  overflow-hidden'>
                             <img src={HeroImg} alt="" className='w-full'/>
                             {/* asda */}
                         </figure>
@@ -125,13 +117,13 @@ const Hero = () => {
                                 >Success Rate</h4>
                             </div>
 
-                            <div className="mb-2 md:mb-10">
+                            {/* <div className="mb-2 md:mb-10">
                                 <h2 className='text-stone-700 font-[700]  text-xl md:text-[32px]'>
                                     <CountUp start={0} end={96} duration={2} suffix='+'/>
                                 </h2>
                                 <h4 className='text-stone-700 font-[600]  text-md md:text-[18px]'
                                 >Happy Clients</h4>
-                            </div>
+                            </div> */}
 
                             <div className="mb-2 md:mb-10">
                                 <h2 className='text-stone-700 font-[700]  text-xl md:text-[32px]'>
