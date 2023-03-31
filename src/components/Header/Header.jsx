@@ -1,4 +1,4 @@
-import React from 'react'
+import React from "react"
 
 const Header = () => {
   return (
@@ -32,7 +32,7 @@ const Header = () => {
                         <button className="flex items-center justify-center gap-2 text-stone-700 font-[600] border border-solid
                         border-smallTextColor py-2 px-4 rounded-lg max-h-[40px] hover:bg-primary hover:border-primary hover:text-white hover:font-[500] ease-in duration-200">
                             <i class="ri-send-plane-line"></i> 
-                                    Let's talk
+                                    Let"s talk
                         </button>
 
                         <span className="text-2xl text-stone-700 md:hidden cursor-pointer"><i className="ri-menu-line"></i></span>
