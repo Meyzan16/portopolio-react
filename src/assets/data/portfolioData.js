@@ -3,6 +3,7 @@ import portfolioImg01 from "../img/portopolio-nextjs.png";
 import portfolioImg02 from "../img/movie-react.png";
 import portfolioImg03 from "../img/portopolio-tailwind.png";
 import portfolioImg04 from "../img/svcc.png";
+
 import portfolioImg05 from "../img/beasiswa.png";
 import portfolioImg06 from "../img/e-kerawanan.png";
 import portfolioImg07 from "../img/esurat.png";
@@ -11,72 +12,72 @@ const portfolios = [
   {
     id: "01",
     imgUrl: portfolioImg01,
-    category: "Web Design",
-    title: "Finance Technology Website",
+    category: "Frontend",
+    title: "portopolio-with-nextJs",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "project belajar dan mengiri waktu kosong",
+    technologies: ["React", "Tailwind css", "nextJs"],
+    siteUrl: "https://portopolio-next.vercel.app/",
   },
   {
     id: "02",
     imgUrl: portfolioImg02,
-    category: "Ux",
-    title: "Video Conference Website",
+    category: "Frontend",
+    title: "movie-react",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "project belajar dan mengiri waktu kosong",
+    technologies: ["React", "Tailwind css"],
+    siteUrl: "https://movie-react-rho.vercel.app/",
   },
   {
     id: "03",
     imgUrl: portfolioImg03,
-    category: "Ux",
-    title: "Video Conference Website",
+    category: "Frontend",
+    title: "portofolio-with-tailwindcss",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "project belajar tailwind pertama kali dan mengisi waktu kosong",
+    technologies: ["Tailwind css"],
+    siteUrl: "https://meyzan16.github.io/Project-tailwind-portopolio/",
   },
   {
     id: "04",
     imgUrl: portfolioImg04,
-    category: "Ux",
-    title: "Video Conference Website",
+    category: "Frontend",
+    title: "svcc-telkom-indonesia",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "project magang kampus merdeka bersama telkom indonesia dengan menyelesaikan web svcc",
+    technologies: ["Boostrap", "VueJs" ],
+    siteUrl: "https://meyzan16.github.io/svccindonesia/",
   },
   {
     id: "05",
     imgUrl: portfolioImg05,
-    category: "Ux",
-    title: "Video Conference Website",
+    category: "Fullstack",
+    title: "Sistem Informasi penerimaan beasiswa",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "Project bersama fakultas teknik penerimaan beasiswa menggunakan metode saw dan menggunakan sumber API dari pangkalan data universitas bengkulu",
+    technologies: ["Codeighneter", "Javascript", "Mysql", "Boostrap"],
+    siteUrl: "https://beasiswa.ft.unib.ac.id/",
   },
   {
     id: "06",
     imgUrl: portfolioImg06,
-    category: "Ux",
-    title: "Video Conference Website",
+    category: "Fullstack",
+    title: "E-kerawanan ",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "Project tugas akhir saya membangun website e-kerawanan sebagai syarat kelulusan prodi informatika universitas bengkulu menggunakan sumber API dari pangkalan data BMKG. silahkan di clone, generate env dan migrate database",
+    technologies: ["laravel 9", "Javascript", "Mysql", "Boostrap"],
+    siteUrl: "https://github.com/Meyzan16/skripsi-gis-me",
   },
   {
     id: "07",
     imgUrl: portfolioImg07,
-    category: "Ux",
-    title: "Video Conference Website",
+    category: "Fullstack",
+    title: "E-Surat FMIPA ",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium vitae sunt magnam numquam esse ipsam? Quis qui enim, temporibus dignissimos atque repellendus amet a velit. Dolorem quidem animi doloribus saepe!",
-    technologies: ["React", "Tailwind css", "Node.js", "MongoDB"],
-    siteUrl: "#",
+      "bersama fakultas FMIPA dalam proses surat menyurat menggunakan qrQode dan menggunakan sumber API dari pangkalan data universitas bengkulu",
+    technologies: ["laravel 9", "Javascript", "Mysql", "Boostrap"],
+    siteUrl: "https://esurat.fmipa.unib.ac.id/",
   },
   
 ];
