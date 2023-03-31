@@ -7,7 +7,7 @@ import CountUp from 'react-countup'
 
 const Hero = () => {
   return (
-    <section className='py-16' id='about'>
+    <section className='py-8' id='about'>
         <div className="container">
             <div className='md:flex items-center justify-between sm:flex-col md:flex-row'>
                     {/* hero left content */}
@@ -100,8 +100,8 @@ const Hero = () => {
                     {/* end hero content */}
 
                     {/* img */}
-                    <div className='md:basis-1/3 py-4'>
-                        <figure className='flex items-center justify-center bg-primary  w-60  md:w-[20rem]    pt-4 mx-auto  rounded-full  overflow-hidden '>
+                    <div className='md:basis-1/3 py-4 md:py-12'>
+                        <figure className='flex items-center justify-center bg-primary  w-60  md:w-[20rem]  mx-auto  rounded-full  overflow-hidden'>
                             <img src={HeroImg} alt="" className='w-full'/>
                             {/* asda */}
                         </figure>
