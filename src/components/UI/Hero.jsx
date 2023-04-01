@@ -16,11 +16,12 @@ const Hero = () => {
                         text-lg md:text-xl font-[600]">
                             Hello welcome
                         </h5>
-                        <h1 data-aos="fade-up" data-aos-duration="1800" data-aos-delay="200" className="py-4 text-stone-900 font-[800]
+                        <h1 data-aos="fade-up" data-aos-duration="1800" data-aos-delay="200" className="py-4
+                         text-stone-900 font-[800]
                             text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px]">I"m Meyzan Al Yutra 
                             <br /> 
                             <span className="text-[1.4rem] sm:text-[40px]">
-                                Software Developer
+                                Software Engineer
                             </span> 
                         </h1>
 
