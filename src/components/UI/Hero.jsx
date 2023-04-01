@@ -18,7 +18,7 @@ const Hero = () => {
                         </h5>
                         <h1 data-aos="fade-up" data-aos-duration="1800" data-aos-delay="200" className="py-4
                          text-stone-900 font-[800]
-                            text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px]">I"m Meyzan Al Yutra 
+                            text-[1.8rem] sm:text-[40px] leading-[35px] sm:leading-[46px]">I'm Meyzan Al Yutra 
                             <br /> 
                             <span className="text-[1.4rem] sm:text-[40px]">
                                 Software Engineer
@@ -44,8 +44,19 @@ const Hero = () => {
                             leading-7  md:pr-10 py-4">
                             <span>
                                 <i class="ri-apps-2-line"></i>
-                            </span>    
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe corrupti eos expedita a porro tenetur minima non animi quod vero?
+                            </span>   
+
+                            <p>
+                            I’m focused on building web applications using Stack technologies   
+                            <span className="text-primary pl-1 pr-1">
+                                 MERN
+                            </span> 
+                             and
+                            <span className="text-primary pl-1">
+                                Laravel
+                            </span>
+                               
+                            </p> 
                         </p>
 
                         <div className="flex items-center justify-center md:justify-normal gap-4 py-4">
