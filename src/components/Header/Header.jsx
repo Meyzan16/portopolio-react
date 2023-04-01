@@ -1,8 +1,40 @@
-import React from "react"
+import React, {useEffect, useRef} from "react"
 
 const Header = () => {
+
+    const headerRef = useRef(null);
+    const menuRef = useRef(null);
+
+    const stickyHeaderFunc = ()=> {
+        window.addEventListener('scroll', () => {
+            if(document.body.scrollTop > 80 || document.documentElement.scrollTop > 80) {
+                headerRef.current.classList.add('sticky_header')
+            }else{
+                headerRef.current.classList.remove('sticky_header')
+            }
+        })
+    }
+    useEffect(()=> {
+        stickyHeaderFunc()
+        return window.removeEventListener("scroll", stickyHeaderFunc);
+    }, []);
+
+    const handleClick = e => {
+        e.preventDefault()
+
+        const targetAttr = e.target.getAttribute('href')
+        const location = document.querySelector(targetAttr).offsetTop
+
+        window.scrollTo({
+            top:location - 80,
+            left:0,
+        })
+    }
+
+    const toggleMenu = () => menuRef.current.classList.toggle('show_menu')
+
   return (
-        <header className="w-full h-[80px] leading-[80px] flex items-center">
+        <header ref={headerRef} className="w-full h-[80px] leading-[80px] flex items-center">
             <div className="container">
                 <div className="flex items-center justify-between">
                     {/* logo */}
@@ -18,13 +50,12 @@ const Header = () => {
                     {/* logoo end */}
 
                     {/* menu start */}
-                    <div className="menu">
+                    <div className="menu" ref={menuRef} onClick={toggleMenu}>
                         <ul className="flex items-center gap-10">
-                            <li><a className="text-stone-700 text-base font-[600] hover:text-primary" href="#about">About</a></li>
-                            <li><a className="text-stone-700 text-base font-[600] hover:text-primary" href="#services">Services</a></li>
-                            <li><a className="text-stone-700 text-base font-[600] hover:text-primary" href="#portopolio">Portopolio</a></li>
-                            <li><a className="text-stone-700 text-base font-[600] hover:text-primary" href="#contact">Contact</a></li>
-                            <li><a className="text-stone-700 text-base font-[600] hover:text-primary" href="#contact">Contact</a></li>
+                            <li><a onClick={handleClick} className="text-stone-700 text-base font-[600] hover:text-primary" href="#about">About</a></li>
+                            <li><a onClick={handleClick} className="text-stone-700 text-base font-[600] hover:text-primary" href="#services">Services</a></li>
+                            <li><a onClick={handleClick} className="text-stone-700 text-base font-[600] hover:text-primary" href="#portofolio">Portopolio</a></li>
+                           
                         </ul>
                     </div>
                     {/* menu end */}
@@ -35,7 +66,8 @@ const Header = () => {
                                     Let"s talk
                         </button>
 
-                        <span className="text-2xl text-stone-700 md:hidden cursor-pointer"><i className="ri-menu-line"></i></span>
+                        <span onClick={toggleMenu} className="text-2xl text-stone-700 md:hidden cursor-pointer">
+                            <i className="ri-menu-line"></i></span>
                     </div>
                     {/* menu right */}
                 </div>
