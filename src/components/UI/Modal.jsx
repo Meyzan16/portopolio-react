@@ -8,7 +8,7 @@ const Modal = ({activeID, setShowModal}) => {
     const data = portfolios.find(portofolio=> portofolio.id === activeID)
 
   return (
-    <div className="w-full h-full fixed top-0 left-0 z-10 bg-primary bg-opacity-50">
+    <div className="w-full h-full fixed top-0 left-0 z-10 bg-dark bg-opacity-70">
         <div className="w-96 md:w-[600px] absolute top-1/2 left-1/2 z-20 bg-white rounded-lg
              transform -translate-x-1/2 -translate-y-1/2 p-5">
             <div>
@@ -38,8 +38,10 @@ const Modal = ({activeID, setShowModal}) => {
 
 
 
-            <button onClick={()=> setShowModal(false)} className="w-[1.8rem] h-[1.8rem] text-white bg-dark absolute top-[-0.5rem] right-[-0.5rem] text-lg rounded-lg
-            flex items-center justify-center cursor-pointer leading-0">
+            <button onClick={()=> setShowModal(false)} className="w-[1.8rem] h-[1.8rem] text-white
+             bg-dark absolute top-[-0.5rem] right-[-0.5rem] text-lg rounded-lg
+            flex items-center justify-center cursor-pointer leading-0
+            ">
                     &times;
             </button>
 
