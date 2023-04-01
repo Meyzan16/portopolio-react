@@ -65,7 +65,7 @@ const Portofolio = () => {
                           key={index}
                           className="group relative z-[1] w-full mb-8 md:mb-4 rounded-lg overflow-hidden shadow-xl
                           shadow-slate-700 
-                           hover:scale-105 transition-all duration-500"> 
+                           hover:scale-105 transition-all duration-300"> 
                               <figure>
                                 <img className="rounded-lg" src={portfolios.imgUrl} alt="" />
                               </figure>
