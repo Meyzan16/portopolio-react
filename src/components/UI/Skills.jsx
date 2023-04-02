@@ -11,7 +11,7 @@ import mysql from '../../assets/img/skills/mysql.png'
 
 export const Skills = () => {
   return (
-    <div className="pt-8 sm:pt-0 pb-56" id="skills">
+    <div className="pt-8 sm:pt-0 pb-8" id="skills">
         <div className="container">
                 <div className='text-center w-full pb-8' >
                     <h2 data-aos="fade-up" data-aos-duration="1200" className="text-center 
@@ -26,7 +26,12 @@ export const Skills = () => {
                 <div className='w-full mt-6'>
                     <div className='w-full grid grid-cols-2 gap-4 md:gap-8 lg:grid-cols-4 mx-auto  '>
                            
-                            <div className='p-2 bg-slate-100 flex  items-center justify-center 
+                            <div 
+                                data-aos="fade-right"
+                                data-aos-duration="1000"
+                                data-aos-delay="100"
+
+                                className='p-2 bg-slate-100 flex  items-center justify-center 
                                     overflow-hidden shadow-xl 
                                     shadow-slate-300 hover:scale-105 transition-all duration-500 rounded-2xl mb-4'>
 
@@ -38,7 +43,9 @@ export const Skills = () => {
                                         css
                                     </h5>
                             </div>
-                            <div className='p-2 bg-slate-100 flex  items-center justify-center 
+                            <div data-aos="fade-right"
+                                data-aos-duration="1000"
+                                data-aos-delay="200" className='p-2 bg-slate-100 flex  items-center justify-center 
                                     overflow-hidden shadow-xl 
                                     shadow-slate-300 hover:scale-105 transition-all duration-500 rounded-2xl mb-4'>
 
@@ -50,7 +57,9 @@ export const Skills = () => {
                                         html
                                     </h5>
                             </div>
-                            <div className='p-2 bg-slate-100 flex  items-center justify-center 
+                            <div  data-aos="fade-right"
+                                data-aos-duration="1000"
+                                data-aos-delay="300" className='p-2 bg-slate-100 flex  items-center justify-center 
                                     overflow-hidden shadow-xl 
                                     shadow-slate-300 hover:scale-105 transition-all duration-500 rounded-2xl mb-4'>
 
@@ -62,19 +71,10 @@ export const Skills = () => {
                                         tailwindcss
                                     </h5>
                             </div>
-                            <div className='p-2 bg-slate-100 flex  items-center justify-center 
-                                    overflow-hidden shadow-xl 
-                                    shadow-slate-300 hover:scale-105 transition-all duration-500 rounded-2xl mb-4'>
-
-                                    <figure className='w-1/2 flex items-center justify-center py-2 '>
-                                        <img src={codeigniter} alt="" className='w-14'/>
-                                    </figure>
-                                    <h5 class="w-1/3 inline-block text-left  
-                                    font-bold  text-medium text-lg  sm:text-xl text-stone-700 ">
-                                        codeigniter
-                                    </h5>
-                            </div>
-                            <div className='p-2 bg-slate-100 flex  items-center justify-center 
+                            
+                            <div data-aos="fade-right"
+                                data-aos-duration="1000"
+                                data-aos-delay="400" className='p-2 bg-slate-100 flex  items-center justify-center 
                                     overflow-hidden shadow-xl 
                                     shadow-slate-300 hover:scale-105 transition-all duration-500 rounded-2xl mb-4'>
 
@@ -86,7 +86,9 @@ export const Skills = () => {
                                         laravel
                                     </h5>
                             </div>
-                            <div className='p-2 bg-slate-100 flex  items-center justify-center 
+                            <div data-aos="fade-right"
+                                data-aos-duration="1000"
+                                data-aos-delay="500" className='p-2 bg-slate-100 flex  items-center justify-center 
                                     overflow-hidden shadow-xl 
                                     shadow-slate-300 hover:scale-105 transition-all duration-500 rounded-2xl mb-4'>
 
@@ -99,7 +101,9 @@ export const Skills = () => {
                                     </h5>
                             </div>
                            
-                            <div className='p-2 bg-slate-100 flex  items-center justify-center 
+                            <div data-aos="fade-right"
+                                data-aos-duration="1000"
+                                data-aos-delay="600" className='p-2 bg-slate-100 flex  items-center justify-center 
                                     overflow-hidden shadow-xl 
                                     shadow-slate-300 hover:scale-105 transition-all duration-500 rounded-2xl mb-4'>
 
@@ -111,7 +115,9 @@ export const Skills = () => {
                                         nextjs
                                     </h5>
                             </div>
-                            <div className='p-2 bg-slate-100 flex  items-center justify-center 
+                            <div data-aos="fade-right"
+                                data-aos-duration="1000"
+                                data-aos-delay="700" className='p-2 bg-slate-100 flex  items-center justify-center 
                                     overflow-hidden shadow-xl 
                                     shadow-slate-300 hover:scale-105 transition-all duration-500 rounded-2xl mb-4'>
 
@@ -123,7 +129,9 @@ export const Skills = () => {
                                         nodejs
                                     </h5>
                             </div>
-                            <div className='p-2 bg-slate-100 flex  items-center justify-center 
+                            <div data-aos="fade-right"
+                                data-aos-duration="1000"
+                                data-aos-delay="800" className='p-2 bg-slate-100 flex  items-center justify-center 
                                     overflow-hidden shadow-xl 
                                     shadow-slate-300 hover:scale-105 transition-all duration-500 rounded-2xl mb-4'>
 

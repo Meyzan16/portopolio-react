@@ -15,8 +15,8 @@ const Services = () => {
                     </h2>
                     <p data-aos="fade-up" data-aos-duration="1200" className="text-justify lg:text-center 
                     lg:mx-auto lg:max-w-6xl text-secondary text-md  leading-relaxed">
-                    S1 Informatics graduates with a hobby of building Website applications using Laravel and moving to MERN Stack technology. Fascinated by how complicated programming is, got me interested in deepening it. I started learning Javascript and became more interested in building interactive Web applications. I then started working part-time by working on several projects such as information system websites, internship projects and student final projects. 
-                    I now spend my time building projects and studying MERN Stack technology.
+                    I love turning beautiful designs into usable websites that respond to various devices and user contexts and are powered by code that’s just as beautiful, as well as scalable. I always seek perfection to make my projects unique and creative and I do so by keeping my eyes on the new tools, 
+                    reading documentations and follow the right people on linkedin.Fascinated by how complicated programming is, got me interested in deepening it. I started learning Javascript and became more interested in building interactive Web applications.I now spend my time building projects and studying MERN Stack technology.
                     </p>
                  </div>
 
