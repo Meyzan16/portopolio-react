@@ -50,7 +50,8 @@ const Portofolio = () => {
                                 My recent portofolio
                     </h2>
 
-                    <p data-aos="fade-up" data-aos-duration="1200" className='text-secondary pb-8'>A skill that I have quite mastered and is still being developed</p>
+                    <p data-aos="fade-up" data-aos-duration="1200" className='text-secondary pb-8'>
+                    Projects that have been completed and announced as freelancers in college</p>
 
                 </div>
                 <div className="flex items-center justify-center gap-3 pb-8">
