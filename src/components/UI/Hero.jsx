@@ -41,13 +41,14 @@ const Hero = () => {
                         
                         <p data-aos="fade-up" data-aos-duration="1500" 
                             className="w-full flex gap-2 text-stone-700 font-[500] text-[15px] 
-                            leading-7  md:pr-10 py-4">
-                            <span>
-                                <i class="ri-apps-2-line"></i>
-                            </span>   
+                            leading-7  pr-4  py-4  justify-center">
 
-                            <p>
-                            I’m focused on building web applications using Stack technologies   
+                                <i class="ri-apps-2-line"></i>
+
+
+                        <p>
+                            I’m focused on building web applications using Stack technologies  
+
                             <span className="text-primary pl-1 pr-1">
                                  MERN
                             </span> 
