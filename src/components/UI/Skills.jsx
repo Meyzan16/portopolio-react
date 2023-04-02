@@ -2,7 +2,6 @@ import React from 'react'
 import css from '../../assets/img/skills/CSS3_logo.png'
 import html from '../../assets/img/skills/html.svg'
 import tailwindcss from '../../assets/img/skills/Tailwind_CSS_Logo.png'
-import codeigniter from '../../assets/img/skills/codeigniter.svg'
 import laravel from '../../assets/img/skills/laravel.png'
 import react from '../../assets/img/skills/react.png'
 import nextjs from '../../assets/img/skills/nextjs.png'
@@ -19,7 +18,7 @@ export const Skills = () => {
                                 My Skills
                     </h2>
 
-                    <p className='text-secondary'>A skill that I have quite mastered and is still being developed</p>
+                    <p data-aos="fade-up" data-aos-duration="1200" className='text-secondary'>A skill that I have quite mastered and is still being developed</p>
 
                 </div>
 
