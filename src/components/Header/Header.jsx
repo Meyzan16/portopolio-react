@@ -54,7 +54,7 @@ const Header = () => {
                             <li><a onClick={handleClick} className="text-stone-700 text-base font-[600] hover:text-primary" href="#about">About</a></li>
                             <li><a onClick={handleClick} className="text-stone-700 text-base font-[600] hover:text-primary" href="#services">Services</a></li>
                             <li><a onClick={handleClick} className="text-stone-700 text-base font-[600] hover:text-primary" href="#skills">Skills</a></li>
-                            <li><a onClick={handleClick} className="text-stone-700 text-base font-[600] hover:text-primary" href="#portofolio">Portopolio</a></li>
+                            <li><a onClick={handleClick} className="text-stone-700 text-base font-[600] hover:text-primary" href="#portofolio">Portofolio</a></li>
                            
                         </ul>
                     </div>
