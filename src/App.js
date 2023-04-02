@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer';
 import Hero from './components/UI/Hero';
 import Services from './components/UI/Services';
 import Portopolio from './components/UI/Portofolio';
+import { Skills } from './components/UI/Skills';
 
 function App() {
   useEffect(()=> {
@@ -19,6 +20,7 @@ function App() {
         <main>
             <Hero />
             <Services />
+            <Skills />
             <Portopolio />
         </main>
     <Footer />

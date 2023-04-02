@@ -44,17 +44,22 @@ const Portofolio = () => {
   return (
     <section className="pt-8 sm:pt-0 pb-32" id="portofolio">
         <div className="container">
-                <h2 data-aos="fade-up" data-aos-duration="1200" className="text-center text-stone-700 text-4xl pb-8">
-                            My recent portofolio
-                </h2>
+                <div className='text-center w-full' >
+                    <h2 data-aos="fade-up" data-aos-duration="1200" className="text-center 
+                    text-stone-700 text-4xl pb-4">
+                                My recent portofolio
+                    </h2>
 
+                    <p className='text-secondary pb-8'>A skill that I have quite mastered and is still being developed</p>
+
+                </div>
                 {/* <div className="flex items-center justify-center gap-3 pb-8">
                         <button onClick={() => setSelectTab('all')} className="text-stone-700 border border-solid border-primary py-2 px-2 rounded-lg hover:bg-primary hover:text-white">All</button>
                         <button onClick={() => setSelectTab('aa')}  className="text-stone-700 border border-solid border-primary py-2 px-2 rounded-lg hover:bg-primary hover:text-white">Fullstack</button>
                         <button onClick={() => setSelectTab('Front-end')}  className="text-stone-700 border border-solid border-primary py-2 px-2 rounded-lg hover:bg-primary hover:text-white">Frontend</button>
                 </div> */}
 
-                <div className="lg:px-12 flex items-center justify-between 
+                <div className=" flex items-center justify-between 
                 flex-wrap md:grid md:grid-cols-2  md:gap-8 lg:gap-12">
                     {data?.slice(0, getItems)?.map((portfolios,index)=> (
                           <div 

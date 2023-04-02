@@ -33,7 +33,7 @@ const Services = () => {
                                 <div className="mt-6 sm:mt-0 sm:mb-4 flex items-center flex-col sm:flex-row">
                                         <div className="flex justify-start w-full  mx-auto items-center">
                                             <div className="w-full sm:w-1/2 sm:pr-8">
-                                                <div data-aos="fade-right" 
+                                                <div data-aos="zoom-in"
                                                 data-aos-duration="1100"
                                                 data-aos-delay="100"
                                                 className="bg-white p-4 rounded group  shadow-md shadow-primary hover:shadow-none 
@@ -70,8 +70,9 @@ const Services = () => {
                                 <div className="mt-6 sm:mt-0 sm:mb-4 flex items-center flex-col sm:flex-row">
                                         <div className="flex justify-end w-full  mx-auto items-center">
                                             <div className="w-full sm:w-1/2 sm:pl-8">
-                                                <div data-aos="fade-left" data-aos-duration="1200"
-                                                data-aos-delay="200" className="bg-white p-4 rounded group  shadow-md shadow-primary hover:shadow-none 
+                                                <div data-aos="zoom-in" data-aos-duration="1200"
+                                                data-aos-delay="200" className="bg-white 
+                                                p-4 rounded group  shadow-md shadow-primary hover:shadow-none 
                                                     hover:bg-primary
                                                     cursor-pointer ease-in duration-150">
                                                     <h3 className="text-stone-700 text-lg mb-3 group-hover:text-white
@@ -101,11 +102,11 @@ const Services = () => {
                                         </div>
                                 </div>
 
-                                {/* rigiht left */}
+                                {/* left left */}
                                 <div className="mt-6 sm:mt-0 sm:mb-4 flex items-center flex-col sm:flex-row">
                                         <div className="flex justify-start w-full  mx-auto items-center">
                                             <div className="w-full sm:w-1/2 sm:pr-8">
-                                                <div data-aos="fade-right" data-aos-duration="1300"
+                                                <div data-aos="zoom-in" data-aos-duration="1300"
                                                 data-aos-delay="300" className="bg-white p-4 rounded group  shadow-md shadow-primary hover:shadow-none 
                                                     hover:bg-primary
                                                     cursor-pointer ease-in duration-150">
@@ -142,7 +143,7 @@ const Services = () => {
                                  <div className="mt-6 sm:mt-0 sm:mb-4 flex items-center flex-col sm:flex-row">
                                         <div className="flex justify-end w-full  mx-auto items-center">
                                             <div className="w-full sm:w-1/2 sm:pl-8">
-                                                <div data-aos="fade-left" data-aos-duration="1400"
+                                                <div data-aos="zoom-in" data-aos-duration="1400"
                                                 data-aos-delay="400" className="bg-white p-4 rounded group  shadow-md shadow-primary hover:shadow-none 
                                                     hover:bg-primary
                                                     cursor-pointer ease-in duration-150">
