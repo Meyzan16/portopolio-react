@@ -6,39 +6,39 @@ const Portofolio = () => {
 
   const [getItems, setItems] = useState(4);
 
-
-  const [portfolios, setPortofolios] = useState(data);
-  const [selectTab, setSelectTab] = useState('all');
-
-  const [showModal, setShowModal] = useState(false);
-  const [activeID, setactiveID] = useState(null);
-
   const loadMoreHandler = ()=> {
     setItems(prev => prev+2)
   }
 
-  const showModalHandler = id=>{
-    setShowModal(true)
-    setactiveID(id)
-  }
+  const [portfolios, setPortofolios] = useState(data);
 
 
-
+  const [selectTab, setSelectTab] = useState('all');
   useEffect(() => {
-    if(selectTab === 'all'){
+    if(selectTab === "all"){
       setPortofolios(data)
     }
-    if(selectTab === 'aa'){
+    if(selectTab === 'back-end'){
       const filteredData = data.filter(item=> item.category==='Fullstack')
       console.log(filteredData)
       setPortofolios(filteredData)
     }
-    if(selectTab === 'Front-end'){
+    if(selectTab === 'front-end'){
       const filteredDataa = data.filter(item=> item.category==='Frontend')
       console.log(filteredDataa)
       setPortofolios(filteredDataa)
     }
   },[selectTab])
+
+  // modal
+
+  const [showModal, setShowModal] = useState(false);
+  const [activeID, setactiveID] = useState(null);
+  
+  const showModalHandler = id =>{
+    setShowModal(true)
+    setactiveID(id)
+  }
 
 
   return (
@@ -53,15 +53,15 @@ const Portofolio = () => {
                     <p className='text-secondary pb-8'>A skill that I have quite mastered and is still being developed</p>
 
                 </div>
-                {/* <div className="flex items-center justify-center gap-3 pb-8">
+                <div className="flex items-center justify-center gap-3 pb-8">
                         <button onClick={() => setSelectTab('all')} className="text-stone-700 border border-solid border-primary py-2 px-2 rounded-lg hover:bg-primary hover:text-white">All</button>
-                        <button onClick={() => setSelectTab('aa')}  className="text-stone-700 border border-solid border-primary py-2 px-2 rounded-lg hover:bg-primary hover:text-white">Fullstack</button>
-                        <button onClick={() => setSelectTab('Front-end')}  className="text-stone-700 border border-solid border-primary py-2 px-2 rounded-lg hover:bg-primary hover:text-white">Frontend</button>
-                </div> */}
+                        <button onClick={() => setSelectTab('back-end')}  className="text-stone-700 border border-solid border-primary py-2 px-2 rounded-lg hover:bg-primary hover:text-white">Fullstack</button>
+                        <button onClick={() => setSelectTab('front-end')}  className="text-stone-700 border border-solid border-primary py-2 px-2 rounded-lg hover:bg-primary hover:text-white">Frontend</button>
+                </div>
 
                 <div className=" flex items-center justify-between 
                 flex-wrap md:grid md:grid-cols-2  md:gap-8 lg:gap-12">
-                    {data?.slice(0, getItems)?.map((portfolios,index)=> (
+                    {portfolios?.slice(0, getItems)?.map((portfolios,index)=> (
                           <div 
                           data-aos="zoom-in" 
                           data-aos-duration="1100"
