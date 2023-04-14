@@ -33,7 +33,7 @@ const Hero = () => {
                                     <i class="ri-mail-line"></i>Hire me
                                 </button>
                             </a>
-                            <a href="#portopolio" className="hover:text-primary hover:border-primary text-stone-700 font-[600] text-[16px] border-b border-solid border-stone-700">
+                            <a href="#portofolio" className="hover:text-primary hover:border-primary text-stone-700 font-[600] text-[16px] border-b border-solid border-stone-700">
                                 See portopolio
                             </a>
 
