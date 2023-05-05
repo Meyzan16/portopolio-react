@@ -86,7 +86,7 @@ const portfolios = [
     category: "Fullstack",
     title: "Airbnb-Mern ",
     description:
-      "Proyek sederhana yang saya buat menggunakan teknologi MERN dari referensi website https://www.airbnb.com.au/",
+      "Proyek sederhana yang saya buat menggunakan teknologi MERN , disarankan dibuka lewat desktop. referensi website https://www.airbnb.com.au/",
     technologies: ["Mongodb", "ExpressJs", "ReactJs", "NodeJs"],
     siteUrl: "https://client-bookingapp.vercel.app/",
   },
