@@ -7,6 +7,7 @@ import portfolioImg04 from "../img/svcc.png";
 import portfolioImg05 from "../img/beasiswa.png";
 import portfolioImg06 from "../img/e-kerawanan.png";
 import portfolioImg07 from "../img/esurat.png";
+import portfolioImg08 from "../img/airbnb.png";
 
 const portfolios = [
   {
@@ -78,6 +79,16 @@ const portfolios = [
       "bersama fakultas FMIPA dalam proses surat menyurat menggunakan qrQode dan menggunakan sumber API dari pangkalan data universitas bengkulu",
     technologies: ["laravel 9", "Javascript", "Mysql", "Boostrap"],
     siteUrl: "https://esurat.fmipa.unib.ac.id/",
+  },
+  {
+    id: "08",
+    imgUrl: portfolioImg08,
+    category: "Fullstack",
+    title: "Airbnb-Mern ",
+    description:
+      "Proyek sederhana yang saya buat menggunakan teknologi MERN dari referensi website https://www.airbnb.com.au/",
+    technologies: ["Mongodb", "ExpressJs", "ReactJs", "NodeJs"],
+    siteUrl: "https://client-bookingapp.vercel.app/",
   },
   
 ];

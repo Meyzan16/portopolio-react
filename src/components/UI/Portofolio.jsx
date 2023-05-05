@@ -79,7 +79,8 @@ const Portofolio = () => {
                               <div className="w-full h-full rounded-lg bg-primary bg-opacity-50 absolute top-0
                               left-0 z-[5] hidden group-hover:block">
                                 <div className="w-full h-full flex items-center justify-center">
-                                  <button onClick={()=> showModalHandler(portfolios.id)} className="text-white bg-headingcolor hover:bg-primary py-2 px-4
+                                  <button onClick={()=> showModalHandler(portfolios.id)} className="
+                                  text-white bg-headingcolor hover:bg-primary py-2 px-4
                                   rounded-lg text-lg ease-in duration-200">
                                     see details
                                   </button>
