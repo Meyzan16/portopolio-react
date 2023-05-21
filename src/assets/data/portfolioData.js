@@ -8,6 +8,7 @@ import portfolioImg05 from "../img/beasiswa.png";
 import portfolioImg06 from "../img/e-kerawanan.png";
 import portfolioImg07 from "../img/esurat.png";
 import portfolioImg08 from "../img/airbnb.png";
+import portfolioImg09 from "../img/promquote.png";
 
 const portfolios = [
   {
@@ -89,6 +90,16 @@ const portfolios = [
       "Proyek sederhana yang saya buat menggunakan teknologi MERN , disarankan dibuka lewat desktop. referensi website https://www.airbnb.com.au/",
     technologies: ["Mongodb", "ExpressJs", "ReactJs", "NodeJs"],
     siteUrl: "https://client-bookingapp.vercel.app/",
+  },
+  {
+    id: "09",
+    imgUrl: portfolioImg09,
+    category: "Fullstack",
+    title: "Prompquote",
+    description: 
+      "Proyek sederhana yang saya buat menggunakan teknologi NextJs. dengan fitur yang diterapkan : File based routing, next API , fullstack app Metadata and search engine optimization, Theree ways to fetch data, SSR,SSG and ISR",
+    technologies: ["Mongodb", "NextJs"],
+    siteUrl: "https://promptquote.vercel.app/",
   },
   
 ];

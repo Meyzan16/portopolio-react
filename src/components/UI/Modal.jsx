@@ -7,6 +7,9 @@ const Modal = ({activeID, setShowModal}) => {
 
     const data = portfolios.find(portofolio=> portofolio.id === activeID)
 
+    console.log(data);
+    
+
   return (
     <div className="w-full h-full fixed top-0 left-0 z-10 bg-dark bg-opacity-70">
         <div className="w-96 md:w-[600px] absolute top-1/2 left-1/2 z-20 bg-white rounded-lg
