@@ -11,9 +11,9 @@ const Modal = ({activeID, setShowModal}) => {
     
 
   return (
-    <div className="w-full h-full fixed top-0 left-0 z-10 bg-dark bg-opacity-70">
+    <div className="w-full h-full fixed top-0 left-0 z-10 bg-dark bg-opacity-70 ">
         <div className="w-96 md:w-[600px] absolute top-1/2 left-1/2 z-20 bg-white rounded-lg
-              -translate-x-1/2 -translate-y-1/2 p-5">
+              -translate-x-1/2 -translate-y-1/2 p-2">
             <div>
                 <figure>
                     <img className="rounded-lg border-primary border border-solid shadow-xl " src={data.imgUrl} alt="" />
