@@ -102,7 +102,7 @@ export const Skills = () => {
                                     </h5>
                             </div>
                            
-                            {/* <div data-aos="fade-right"
+                            <div data-aos="fade-right"
                                 data-aos-duration="1000"
                                 data-aos-delay="600" className='p-2 bg-slate-100 flex  items-center justify-center 
                                     overflow-hidden shadow-xl 
@@ -115,7 +115,7 @@ export const Skills = () => {
                                     font-bold  text-medium text-lg  sm:text-xl text-stone-700 ">
                                         nextjs
                                     </h5>
-                            </div> */}
+                            </div>
                             <div data-aos="fade-right"
                                 data-aos-duration="1000"
                                 data-aos-delay="600" className='p-2 bg-slate-100 flex  items-center justify-center 
