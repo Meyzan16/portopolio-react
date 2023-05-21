@@ -5,6 +5,7 @@ import React from "react"
 import HeroImg from "../../assets/images/preview-poto.png"
 import CountUp from "react-countup"
 
+
 const Hero = () => {
   return (
     <section className="py-8" id="about">
