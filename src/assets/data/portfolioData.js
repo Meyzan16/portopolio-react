@@ -9,6 +9,7 @@ import portfolioImg06 from "../img/e-kerawanan.png";
 import portfolioImg07 from "../img/esurat.png";
 import portfolioImg08 from "../img/airbnb.png";
 import portfolioImg09 from "../img/promquote.png";
+import portfolioImg10 from "../img/img10.png";
 
 const portfolios = [
   {
@@ -100,6 +101,16 @@ const portfolios = [
       "Proyek sederhana yang saya buat menggunakan teknologi NextJs. dengan fitur yang diterapkan : File based routing, next API , fullstack app Metadata and search engine optimization, Theree ways to fetch data, SSR,SSG and ISR",
     technologies: ["Mongodb", "NextJs"],
     siteUrl: "https://promptquote.vercel.app/",
+  },
+  {
+    id: "10",
+    imgUrl: portfolioImg10,
+    category: "Frontend",
+    title: "ShowCase Car",
+    description: 
+      "Proyek sederhana yang saya buat menggunakan teknologi NextJs dan menggunakan API CARS (https://rapidapi.com/apininjas/api/cars-by-api-ninjas) dan Imagin Studio (https://cdn.imagin.studio/getimage)",
+    technologies: ["Mongodb", "NextJs", "TypeScript"],
+    siteUrl: "https://booking-car-showcase.vercel.app/",
   },
   
 ];
