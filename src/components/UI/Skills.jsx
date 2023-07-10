@@ -4,7 +4,7 @@ import html from '../../assets/img/skills/html.svg'
 import tailwindcss from '../../assets/img/skills/Tailwind_CSS_Logo.png'
 import laravel from '../../assets/img/skills/laravel.png'
 import react from '../../assets/img/skills/react.png'
-// import nextjs from '../../assets/img/skills/nextjs.png'
+import nextjs from '../../assets/img/skills/nextjs.png'
 import nodejs from '../../assets/img/skills/node.png'
 import mysql from '../../assets/img/skills/mysql.png'
 import express from '../../assets/img/skills/express js.png'
@@ -116,6 +116,7 @@ export const Skills = () => {
                                         nextjs
                                     </h5>
                             </div>
+
                             <div data-aos="fade-right"
                                 data-aos-duration="1000"
                                 data-aos-delay="600" className='p-2 bg-slate-100 flex  items-center justify-center 
