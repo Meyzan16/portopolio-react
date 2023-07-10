@@ -9,6 +9,9 @@ import nodejs from '../../assets/img/skills/node.png'
 import mysql from '../../assets/img/skills/mysql.png'
 import express from '../../assets/img/skills/express js.png'
 import mongodb from '../../assets/img/skills/mongodb.png'
+import js from '../../assets/img/skills/js.png'
+import ts from '../../assets/img/skills/ts.png'
+
 
 export const Skills = () => {
   return (
@@ -87,6 +90,7 @@ export const Skills = () => {
                                         laravel
                                     </h5>
                             </div>
+
                             <div data-aos="fade-right"
                                 data-aos-duration="1000"
                                 data-aos-delay="500" className='p-2 bg-slate-100 flex  items-center justify-center 
@@ -99,6 +103,36 @@ export const Skills = () => {
                                     <h5 class="w-1/3 inline-block text-left  
                                     font-bold  text-medium text-lg  sm:text-xl text-stone-700 ">
                                         reactjs
+                                    </h5>
+                            </div>
+
+                            <div data-aos="fade-right"
+                                data-aos-duration="1000"
+                                data-aos-delay="500" className='p-2 bg-slate-100 flex  items-center justify-center 
+                                    overflow-hidden shadow-xl 
+                                    shadow-slate-300 hover:scale-105 transition-all duration-500 rounded-2xl mb-4'>
+
+                                    <figure className='w-1/2 flex items-center justify-center py-2 '>
+                                        <img src={js} alt="" className='w-14'/>
+                                    </figure>
+                                    <h5 class="w-1/3 inline-block text-left  
+                                    font-bold  text-medium text-lg  sm:text-xl text-stone-700 ">
+                                        Javascript
+                                    </h5>
+                            </div>
+
+                            <div data-aos="fade-right"
+                                data-aos-duration="1000"
+                                data-aos-delay="500" className='p-2 bg-slate-100 flex  items-center justify-center 
+                                    overflow-hidden shadow-xl 
+                                    shadow-slate-300 hover:scale-105 transition-all duration-500 rounded-2xl mb-4'>
+
+                                    <figure className='w-1/2 flex items-center justify-center py-2 '>
+                                        <img src={ts} alt="" className='w-14'/>
+                                    </figure>
+                                    <h5 class="w-1/3 inline-block text-left  
+                                    font-bold  text-medium text-lg  sm:text-xl text-stone-700 ">
+                                        TypeScript
                                     </h5>
                             </div>
                            
