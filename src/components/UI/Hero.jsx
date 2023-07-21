@@ -74,7 +74,7 @@ const Hero = () => {
                                     </a>
                                 </span>
                                 <span data-aos="zoom-in" data-aos-duration="800" data-aos-delay="200">
-                                    <a href="https://www.linkedin.com/in/meyzan-al-yutra-s-kom-4017b2221/" className="sm:w-12 sm:h-12 w-10 h-10
+                                    <a href="https://www.linkedin.com/in/meyzan-al-yutra-4017b2221/" className="sm:w-12 sm:h-12 w-10 h-10
                                             rounded-full justify-center border
                                             border-slate-300 hover:border-primary
                                             transition-all duration-300 hover:ease-in hover:scale-125
