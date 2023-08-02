@@ -116,7 +116,7 @@ const portfolios = [
   {
     id: "11",
     imgUrl: portfolioImg11,
-    category: "Fullstacj",
+    category: "Fullstack",
     title: "Sistem Absensi",
     description: 
       "Proyel sederhana yang saya buat menggunakan teknologi MERN username:admin@gmail.com pass: test",
