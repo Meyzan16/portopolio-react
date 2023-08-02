@@ -10,6 +10,7 @@ import portfolioImg07 from "../img/esurat.png";
 import portfolioImg08 from "../img/airbnb.png";
 import portfolioImg09 from "../img/promquote.png";
 import portfolioImg10 from "../img/img10.png";
+import portfolioImg11 from "../img/img11.png";
 
 const portfolios = [
   {
@@ -111,6 +112,16 @@ const portfolios = [
       "Proyek sederhana yang saya buat menggunakan teknologi NextJs dan menggunakan API CARS (https://rapidapi.com/apininjas/api/cars-by-api-ninjas) dan Imagin Studio (https://cdn.imagin.studio/getimage)",
     technologies: ["Mongodb", "NextJs", "TypeScript"],
     siteUrl: "https://booking-car-showcase.vercel.app/",
+  },
+  {
+    id: "11",
+    imgUrl: portfolioImg11,
+    category: "Fullstacj",
+    title: "Sistem Absensi",
+    description: 
+      "Proyel sederhana yang saya buat menggunakan teknologi MERN username:admin@gmail.com pass: test",
+    technologies: ["Mongodb", "ExpressJs", "ReactJS","NodeJS"],
+    siteUrl: "https://curious-toad-smock.cyclic.app/",
   },
   
 ];
