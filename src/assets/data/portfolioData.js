@@ -11,6 +11,7 @@ import portfolioImg08 from "../img/airbnb.png";
 import portfolioImg09 from "../img/promquote.png";
 import portfolioImg10 from "../img/img10.png";
 import portfolioImg11 from "../img/img11.png";
+import portfolioImg12 from "../img/img12.png";
 
 const portfolios = [
   {
@@ -122,6 +123,16 @@ const portfolios = [
       "Proyel sederhana yang saya buat menggunakan teknologi MERN username:admin@gmail.com pass: test",
     technologies: ["Mongodb", "ExpressJs", "ReactJS","NodeJS"],
     siteUrl: "https://curious-toad-smock.cyclic.app/",
+  },
+  {
+    id: "12",
+    imgUrl: portfolioImg12,
+    category: "Fullstack",
+    title: "Sistem Ecommerce Multiple User",
+    description: 
+      "Proyel sederhana yang saya buat menggunakan teknologi MERN, firebase dan mongodb",
+    technologies: ["NextJs", "MongoDb", "Firebase"],
+    siteUrl: "https://ecom-firebase-nextjs.vercel.app/",
   },
   
 ];
