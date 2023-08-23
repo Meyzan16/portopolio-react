@@ -130,8 +130,8 @@ const portfolios = [
     category: "Fullstack",
     title: "Sistem Ecommerce Multiple User",
     description: 
-      "Proyel sederhana yang saya buat menggunakan teknologi MERN, firebase dan mongodb",
-    technologies: ["NextJs", "MongoDb", "Firebase"],
+      "Proyel sederhana yang saya buat menggunakan teknologi MERN, firebase , stripe dan mongodb",
+    technologies: ["NextJs", "MongoDb", "Firebase", "Stripe"],
     siteUrl: "https://ecom-firebase-nextjs.vercel.app/",
   },
   
